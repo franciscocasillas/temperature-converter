@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function InputTermometer() {
+function InputTemperature() {
 	const [initialTemperature, setInitialTemperature] = useState("");
 
 	const handleInitialTemperature = (event) => {

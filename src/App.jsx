@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import Converter from "./components/Converter";
-import InputTermometer from "./components/InputTemperature";
+import InputTemperature from "./components/InputTemperature";
 import Output from "./components/Output";
 import Select from "./components/Select";
 
 function App() {
 	return (
 		<div>
-			<InputTermometer
+			<InputTemperature
 				value={initialTemperature}
 				onChange={handleInputChange}
 			/>
